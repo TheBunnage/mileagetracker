@@ -1,0 +1,27 @@
+
+name: mileage_tracker
+description: Simple mileage tracker with odometer entry, Work/Personal classification, and GPS capture on button press. CSV export.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  geolocator: ^12.0.0
+  permission_handler: ^11.3.0
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  path_provider: ^2.1.3
+  csv: ^6.0.0
+  share_plus: ^10.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
